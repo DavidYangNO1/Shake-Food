@@ -143,6 +143,8 @@
 		A9E5CD751745FEE200B65324 /* SFStartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD731745FEE200B65324 /* SFStartScene.cpp */; };
 		A9E5CD781746021A00B65324 /* SFGameSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD761746021A00B65324 /* SFGameSprite.cpp */; };
 		A9E5CD7B17460A8400B65324 /* SFGamePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */; };
+		A9E5CD851746174300B65324 /* SFGameEnemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD831746174300B65324 /* SFGameEnemy.cpp */; };
+		A9E5CD881746177E00B65324 /* SFGameBullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD861746177D00B65324 /* SFGameBullet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -431,6 +433,10 @@
 		A9E5CD771746021A00B65324 /* SFGameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGameSprite.h; path = ../SFGameSprite.h; sourceTree = "<group>"; };
 		A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFGamePlayer.cpp; path = ../SFGamePlayer.cpp; sourceTree = "<group>"; };
 		A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGamePlayer.h; path = ../SFGamePlayer.h; sourceTree = "<group>"; };
+		A9E5CD831746174300B65324 /* SFGameEnemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameEnemy.cpp; sourceTree = "<group>"; };
+		A9E5CD841746174300B65324 /* SFGameEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameEnemy.h; sourceTree = "<group>"; };
+		A9E5CD861746177D00B65324 /* SFGameBullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameBullet.cpp; sourceTree = "<group>"; };
+		A9E5CD871746177D00B65324 /* SFGameBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameBullet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1032,6 +1038,10 @@
 				A9E5CD771746021A00B65324 /* SFGameSprite.h */,
 				A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */,
 				A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */,
+				A9E5CD831746174300B65324 /* SFGameEnemy.cpp */,
+				A9E5CD841746174300B65324 /* SFGameEnemy.h */,
+				A9E5CD861746177D00B65324 /* SFGameBullet.cpp */,
+				A9E5CD871746177D00B65324 /* SFGameBullet.h */,
 			);
 			path = Charactor;
 			sourceTree = "<group>";
@@ -1235,6 +1245,8 @@
 				A9E5CD751745FEE200B65324 /* SFStartScene.cpp in Sources */,
 				A9E5CD781746021A00B65324 /* SFGameSprite.cpp in Sources */,
 				A9E5CD7B17460A8400B65324 /* SFGamePlayer.cpp in Sources */,
+				A9E5CD851746174300B65324 /* SFGameEnemy.cpp in Sources */,
+				A9E5CD881746177E00B65324 /* SFGameBullet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
