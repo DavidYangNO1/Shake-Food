@@ -423,14 +423,14 @@
 		A9E5CD661745FC7700B65324 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		A9E5CD681745FC7700B65324 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		A9E5CD691745FC7700B65324 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFSceneManager.cpp; sourceTree = "<group>"; };
-		A9E5CD711745FD3600B65324 /* SFSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSceneManager.h; sourceTree = "<group>"; };
-		A9E5CD731745FEE200B65324 /* SFStartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFStartScene.cpp; sourceTree = "<group>"; };
-		A9E5CD741745FEE200B65324 /* SFStartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFStartScene.h; sourceTree = "<group>"; };
-		A9E5CD761746021A00B65324 /* SFGameSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameSprite.cpp; sourceTree = "<group>"; };
-		A9E5CD771746021A00B65324 /* SFGameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameSprite.h; sourceTree = "<group>"; };
-		A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGamePlayer.cpp; sourceTree = "<group>"; };
-		A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGamePlayer.h; sourceTree = "<group>"; };
+		A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFSceneManager.cpp; path = ../SFSceneManager.cpp; sourceTree = "<group>"; };
+		A9E5CD711745FD3600B65324 /* SFSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFSceneManager.h; path = ../SFSceneManager.h; sourceTree = "<group>"; };
+		A9E5CD731745FEE200B65324 /* SFStartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFStartScene.cpp; path = ../SFStartScene.cpp; sourceTree = "<group>"; };
+		A9E5CD741745FEE200B65324 /* SFStartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFStartScene.h; path = ../SFStartScene.h; sourceTree = "<group>"; };
+		A9E5CD761746021A00B65324 /* SFGameSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFGameSprite.cpp; path = ../SFGameSprite.cpp; sourceTree = "<group>"; };
+		A9E5CD771746021A00B65324 /* SFGameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGameSprite.h; path = ../SFGameSprite.h; sourceTree = "<group>"; };
+		A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFGamePlayer.cpp; path = ../SFGamePlayer.cpp; sourceTree = "<group>"; };
+		A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGamePlayer.h; path = ../SFGamePlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1015,20 +1015,36 @@
 		A9E5CD641745FC7700B65324 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A9E5CD82174615DB00B65324 /* scene */,
+				A9E5CD81174615D600B65324 /* Charactor */,
 				A9E5CD651745FC7700B65324 /* AppDelegate.h */,
 				A9E5CD661745FC7700B65324 /* AppDelegate.cpp */,
 				A9E5CD681745FC7700B65324 /* HelloWorldScene.h */,
 				A9E5CD691745FC7700B65324 /* HelloWorldScene.cpp */,
-				A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */,
-				A9E5CD711745FD3600B65324 /* SFSceneManager.h */,
-				A9E5CD731745FEE200B65324 /* SFStartScene.cpp */,
-				A9E5CD741745FEE200B65324 /* SFStartScene.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A9E5CD81174615D600B65324 /* Charactor */ = {
+			isa = PBXGroup;
+			children = (
 				A9E5CD761746021A00B65324 /* SFGameSprite.cpp */,
 				A9E5CD771746021A00B65324 /* SFGameSprite.h */,
 				A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */,
 				A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */,
 			);
-			name = Classes;
+			path = Charactor;
+			sourceTree = "<group>";
+		};
+		A9E5CD82174615DB00B65324 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */,
+				A9E5CD711745FD3600B65324 /* SFSceneManager.h */,
+				A9E5CD731745FEE200B65324 /* SFStartScene.cpp */,
+				A9E5CD741745FEE200B65324 /* SFStartScene.h */,
+			);
+			path = scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
