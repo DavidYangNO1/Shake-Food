@@ -384,6 +384,7 @@ protected:
 	bool m_bFlipX;
 	bool m_bFlipY;
 };
+     
 }//namespace   cocos2d 
 
 #endif // __SPITE_NODE_CCSPRITE_H__

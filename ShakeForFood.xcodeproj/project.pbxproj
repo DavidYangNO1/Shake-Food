@@ -142,6 +142,7 @@
 		A9E5CD721745FD3600B65324 /* SFSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */; };
 		A9E5CD751745FEE200B65324 /* SFStartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD731745FEE200B65324 /* SFStartScene.cpp */; };
 		A9E5CD781746021A00B65324 /* SFGameSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD761746021A00B65324 /* SFGameSprite.cpp */; };
+		A9E5CD7B17460A8400B65324 /* SFGamePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -428,6 +429,8 @@
 		A9E5CD741745FEE200B65324 /* SFStartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFStartScene.h; sourceTree = "<group>"; };
 		A9E5CD761746021A00B65324 /* SFGameSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameSprite.cpp; sourceTree = "<group>"; };
 		A9E5CD771746021A00B65324 /* SFGameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameSprite.h; sourceTree = "<group>"; };
+		A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGamePlayer.cpp; sourceTree = "<group>"; };
+		A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGamePlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1022,6 +1025,8 @@
 				A9E5CD741745FEE200B65324 /* SFStartScene.h */,
 				A9E5CD761746021A00B65324 /* SFGameSprite.cpp */,
 				A9E5CD771746021A00B65324 /* SFGameSprite.h */,
+				A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */,
+				A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1213,6 +1218,7 @@
 				A9E5CD721745FD3600B65324 /* SFSceneManager.cpp in Sources */,
 				A9E5CD751745FEE200B65324 /* SFStartScene.cpp in Sources */,
 				A9E5CD781746021A00B65324 /* SFGameSprite.cpp in Sources */,
+				A9E5CD7B17460A8400B65324 /* SFGamePlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
