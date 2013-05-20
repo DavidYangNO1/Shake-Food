@@ -12,6 +12,7 @@
 #include <iostream>
 #include "cocos2d.h"
 #include "SFGameSprite.h"
+
 using namespace cocos2d;
 
 class SFGamePlayer: public SFGameSprite {
@@ -29,7 +30,7 @@ public:
     virtual void tick();
     virtual void setPosition(CCPoint inPoint);
     virtual bool collision();
-    virtual CCSize getSize();
+    CCSize getSize();
     
     bool isCollision(SFGameSprite * inGameSprite);
     float getSpeed();

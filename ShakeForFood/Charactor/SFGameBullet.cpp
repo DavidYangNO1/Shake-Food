@@ -7,6 +7,7 @@
 //
 
 #include "SFGameBullet.h"
+#include "SFGamePlayer.h"
 #include <cmath>
 
 SFGameBullet::SFGameBullet(void){

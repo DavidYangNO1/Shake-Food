@@ -139,12 +139,15 @@
 		A9E5CD631745FC7700B65324 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD621745FC7700B65324 /* RootViewController.mm */; };
 		A9E5CD671745FC7700B65324 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD661745FC7700B65324 /* AppDelegate.cpp */; };
 		A9E5CD6A1745FC7700B65324 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD691745FC7700B65324 /* HelloWorldScene.cpp */; };
-		A9E5CD721745FD3600B65324 /* SFSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */; };
-		A9E5CD751745FEE200B65324 /* SFStartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD731745FEE200B65324 /* SFStartScene.cpp */; };
-		A9E5CD781746021A00B65324 /* SFGameSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD761746021A00B65324 /* SFGameSprite.cpp */; };
-		A9E5CD7B17460A8400B65324 /* SFGamePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */; };
 		A9E5CD851746174300B65324 /* SFGameEnemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD831746174300B65324 /* SFGameEnemy.cpp */; };
 		A9E5CD881746177E00B65324 /* SFGameBullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CD861746177D00B65324 /* SFGameBullet.cpp */; };
+		A9E9E49B174A0612007AD545 /* SFGameTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E499174A0612007AD545 /* SFGameTile.cpp */; };
+		A9E9E4A0174A0A18007AD545 /* SFGameBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E49E174A0A18007AD545 /* SFGameBox.cpp */; };
+		A9E9E4A3174A15A0007AD545 /* SFHRocker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E4A1174A15A0007AD545 /* SFHRocker.cpp */; };
+		A9F045741749FECC00D0AAC2 /* SFGameSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9F045711749FECB00D0AAC2 /* SFGameSprite.cpp */; };
+		A9F0457A1749FEEE00D0AAC2 /* SFSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9F045761749FEEE00D0AAC2 /* SFSceneManager.cpp */; };
+		A9F0457B1749FEEE00D0AAC2 /* SFStartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9F045781749FEEE00D0AAC2 /* SFStartScene.cpp */; };
+		A9F0457E174A011F00D0AAC2 /* SFGamePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9F0457C174A011F00D0AAC2 /* SFGamePlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,18 +428,25 @@
 		A9E5CD661745FC7700B65324 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		A9E5CD681745FC7700B65324 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		A9E5CD691745FC7700B65324 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFSceneManager.cpp; path = ../SFSceneManager.cpp; sourceTree = "<group>"; };
-		A9E5CD711745FD3600B65324 /* SFSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFSceneManager.h; path = ../SFSceneManager.h; sourceTree = "<group>"; };
-		A9E5CD731745FEE200B65324 /* SFStartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFStartScene.cpp; path = ../SFStartScene.cpp; sourceTree = "<group>"; };
-		A9E5CD741745FEE200B65324 /* SFStartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFStartScene.h; path = ../SFStartScene.h; sourceTree = "<group>"; };
-		A9E5CD761746021A00B65324 /* SFGameSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFGameSprite.cpp; path = ../SFGameSprite.cpp; sourceTree = "<group>"; };
-		A9E5CD771746021A00B65324 /* SFGameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGameSprite.h; path = ../SFGameSprite.h; sourceTree = "<group>"; };
-		A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SFGamePlayer.cpp; path = ../SFGamePlayer.cpp; sourceTree = "<group>"; };
-		A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGamePlayer.h; path = ../SFGamePlayer.h; sourceTree = "<group>"; };
 		A9E5CD831746174300B65324 /* SFGameEnemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameEnemy.cpp; sourceTree = "<group>"; };
 		A9E5CD841746174300B65324 /* SFGameEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameEnemy.h; sourceTree = "<group>"; };
 		A9E5CD861746177D00B65324 /* SFGameBullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameBullet.cpp; sourceTree = "<group>"; };
 		A9E5CD871746177D00B65324 /* SFGameBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameBullet.h; sourceTree = "<group>"; };
+		A9E9E499174A0612007AD545 /* SFGameTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameTile.cpp; sourceTree = "<group>"; };
+		A9E9E49A174A0612007AD545 /* SFGameTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameTile.h; sourceTree = "<group>"; };
+		A9E9E49D174A0958007AD545 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		A9E9E49E174A0A18007AD545 /* SFGameBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameBox.cpp; sourceTree = "<group>"; };
+		A9E9E49F174A0A18007AD545 /* SFGameBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameBox.h; sourceTree = "<group>"; };
+		A9E9E4A1174A15A0007AD545 /* SFHRocker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFHRocker.cpp; sourceTree = "<group>"; };
+		A9E9E4A2174A15A0007AD545 /* SFHRocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHRocker.h; sourceTree = "<group>"; };
+		A9F045711749FECB00D0AAC2 /* SFGameSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGameSprite.cpp; sourceTree = "<group>"; };
+		A9F045721749FECB00D0AAC2 /* SFGameSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGameSprite.h; sourceTree = "<group>"; };
+		A9F045761749FEEE00D0AAC2 /* SFSceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFSceneManager.cpp; sourceTree = "<group>"; };
+		A9F045771749FEEE00D0AAC2 /* SFSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSceneManager.h; sourceTree = "<group>"; };
+		A9F045781749FEEE00D0AAC2 /* SFStartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFStartScene.cpp; sourceTree = "<group>"; };
+		A9F045791749FEEE00D0AAC2 /* SFStartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFStartScene.h; sourceTree = "<group>"; };
+		A9F0457C174A011F00D0AAC2 /* SFGamePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFGamePlayer.cpp; sourceTree = "<group>"; };
+		A9F0457D174A011F00D0AAC2 /* SFGamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGamePlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1021,7 +1031,8 @@
 		A9E5CD641745FC7700B65324 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A9E5CD82174615DB00B65324 /* scene */,
+				A9E9E49C174A0945007AD545 /* unity */,
+				A9F045751749FEEE00D0AAC2 /* scene */,
 				A9E5CD81174615D600B65324 /* Charactor */,
 				A9E5CD651745FC7700B65324 /* AppDelegate.h */,
 				A9E5CD661745FC7700B65324 /* AppDelegate.cpp */,
@@ -1034,10 +1045,10 @@
 		A9E5CD81174615D600B65324 /* Charactor */ = {
 			isa = PBXGroup;
 			children = (
-				A9E5CD761746021A00B65324 /* SFGameSprite.cpp */,
-				A9E5CD771746021A00B65324 /* SFGameSprite.h */,
-				A9E5CD7917460A8400B65324 /* SFGamePlayer.cpp */,
-				A9E5CD7A17460A8400B65324 /* SFGamePlayer.h */,
+				A9F0457C174A011F00D0AAC2 /* SFGamePlayer.cpp */,
+				A9F0457D174A011F00D0AAC2 /* SFGamePlayer.h */,
+				A9F045711749FECB00D0AAC2 /* SFGameSprite.cpp */,
+				A9F045721749FECB00D0AAC2 /* SFGameSprite.h */,
 				A9E5CD831746174300B65324 /* SFGameEnemy.cpp */,
 				A9E5CD841746174300B65324 /* SFGameEnemy.h */,
 				A9E5CD861746177D00B65324 /* SFGameBullet.cpp */,
@@ -1046,13 +1057,27 @@
 			path = Charactor;
 			sourceTree = "<group>";
 		};
-		A9E5CD82174615DB00B65324 /* scene */ = {
+		A9E9E49C174A0945007AD545 /* unity */ = {
 			isa = PBXGroup;
 			children = (
-				A9E5CD701745FD3600B65324 /* SFSceneManager.cpp */,
-				A9E5CD711745FD3600B65324 /* SFSceneManager.h */,
-				A9E5CD731745FEE200B65324 /* SFStartScene.cpp */,
-				A9E5CD741745FEE200B65324 /* SFStartScene.h */,
+				A9E9E49D174A0958007AD545 /* constants.h */,
+			);
+			path = unity;
+			sourceTree = "<group>";
+		};
+		A9F045751749FEEE00D0AAC2 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				A9F045761749FEEE00D0AAC2 /* SFSceneManager.cpp */,
+				A9F045771749FEEE00D0AAC2 /* SFSceneManager.h */,
+				A9F045781749FEEE00D0AAC2 /* SFStartScene.cpp */,
+				A9F045791749FEEE00D0AAC2 /* SFStartScene.h */,
+				A9E9E499174A0612007AD545 /* SFGameTile.cpp */,
+				A9E9E49A174A0612007AD545 /* SFGameTile.h */,
+				A9E9E49E174A0A18007AD545 /* SFGameBox.cpp */,
+				A9E9E49F174A0A18007AD545 /* SFGameBox.h */,
+				A9E9E4A1174A15A0007AD545 /* SFHRocker.cpp */,
+				A9E9E4A2174A15A0007AD545 /* SFHRocker.h */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -1241,12 +1266,15 @@
 				A9E5CD631745FC7700B65324 /* RootViewController.mm in Sources */,
 				A9E5CD671745FC7700B65324 /* AppDelegate.cpp in Sources */,
 				A9E5CD6A1745FC7700B65324 /* HelloWorldScene.cpp in Sources */,
-				A9E5CD721745FD3600B65324 /* SFSceneManager.cpp in Sources */,
-				A9E5CD751745FEE200B65324 /* SFStartScene.cpp in Sources */,
-				A9E5CD781746021A00B65324 /* SFGameSprite.cpp in Sources */,
-				A9E5CD7B17460A8400B65324 /* SFGamePlayer.cpp in Sources */,
 				A9E5CD851746174300B65324 /* SFGameEnemy.cpp in Sources */,
 				A9E5CD881746177E00B65324 /* SFGameBullet.cpp in Sources */,
+				A9F045741749FECC00D0AAC2 /* SFGameSprite.cpp in Sources */,
+				A9F0457A1749FEEE00D0AAC2 /* SFSceneManager.cpp in Sources */,
+				A9F0457B1749FEEE00D0AAC2 /* SFStartScene.cpp in Sources */,
+				A9F0457E174A011F00D0AAC2 /* SFGamePlayer.cpp in Sources */,
+				A9E9E49B174A0612007AD545 /* SFGameTile.cpp in Sources */,
+				A9E9E4A0174A0A18007AD545 /* SFGameBox.cpp in Sources */,
+				A9E9E4A3174A15A0007AD545 /* SFHRocker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1256,7 +1284,7 @@
 		A9E5CD6B1745FC7700B65324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1267,7 +1295,7 @@
 					TARGET_OS_IPHONE,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -1275,7 +1303,7 @@
 					"\"$(PROJECT_NAME)/libs/CocosDenshion/include\"",
 					"\"$(SDKROOT)/usr/include/libxml2\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1283,7 +1311,7 @@
 		A9E5CD6C1745FC7700B65324 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1291,7 +1319,7 @@
 					USE_FILE32API,
 					TARGET_OS_IPHONE,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -1299,7 +1327,7 @@
 					"\"$(PROJECT_NAME)/libs/CocosDenshion/include\"",
 					"\"$(SDKROOT)/usr/include/libxml2\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -1314,7 +1342,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ShakeForFood/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = ShakeForFood/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lxml2",
 					"-lz",
@@ -1332,7 +1362,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ShakeForFood/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = ShakeForFood/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lxml2",
 					"-lz",
@@ -1362,6 +1394,7 @@
 				A9E5CD6F1745FC7700B65324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,10 +11,11 @@
 
 #include <iostream>
 #include "SFGameSprite.h"
-#include "SFGamePlayer.h"
 #include "cocos2d.h"
 
 using namespace cocos2d;
+
+class SFGamePlayer;
 
 class SFGameBullet : public SFGameSprite {
      
