@@ -36,7 +36,7 @@ private:
 public:
     
     SFGameBox(CCSize inSize,int afactor);
-    
+    ~SFGameBox();
     SFGameTile * objectAtXAndY(int posX,int posY);
     
     void checkWith(Orientation orient);

@@ -8,11 +8,17 @@
 
 #include "SFGameBox.h"
 
+
+SFGameBox::~SFGameBox(){
+    
+    layer->release();
+}
 SFGameBox::SFGameBox(CCSize inSize,int afactor){
     
     size = inSize;
     
     outBorderTile = new SFGameTile(-1,-1);
+    outBorderTile->autorelease();
     content = CCArray::arrayWithCapacity(size.height);
 	content->retain();
     
@@ -23,7 +29,7 @@ SFGameBox::SFGameBox(CCSize inSize,int afactor){
 		for (int x=0; x < size.width; x++) {
             
 			SFGameTile *tile = new SFGameTile(x,y);
-            
+            tile->autorelease();
             rowContent->addObject(tile);
             
 		}
@@ -31,10 +37,10 @@ SFGameBox::SFGameBox(CCSize inSize,int afactor){
         content->addObject(rowContent);
         
 	}
-    
     readyToRemoveTiles = CCArray::arrayWithCapacity(size.height);
     readyToRemoveTiles->retain();
 }
+
 
 SFGameTile * SFGameBox::objectAtXAndY(int posX,int posY){
     
@@ -92,8 +98,7 @@ void SFGameBox::checkWith(Orientation orient){
 }
 
 bool SFGameBox::check(){
-    checkWith(OrientationHori);
-    checkWith(OrientationVert);
+    
     checkWith(OrientationHori);
     checkWith(OrientationVert);
     
